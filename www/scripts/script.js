@@ -16,5 +16,7 @@ $(document).ready(function () {
     setTimeout(function () {
         determineClothesFromWeatherData();
     }, 2000);
+    
+    
 
 });
