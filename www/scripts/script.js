@@ -15,6 +15,6 @@ $(document).ready(function () {
     colorHandler();
     setTimeout(function () {
         determineClothesFromWeatherData();
-    }, 5000);
+    }, 2000);
 
 });

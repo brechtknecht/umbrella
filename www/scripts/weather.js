@@ -179,11 +179,16 @@ function determineClothesFromWeatherData() {
     //Creates Object from given Weatherdata
     var todaysWeatherData = new WeatherData(tempWeatherData.temperature, tempWeatherData.maxTemperature, tempWeatherData.minTemperature, tempWeatherData.description, tempWeatherData.currentWeatherId, tempWeatherData.rainAmount, tempWeatherData.rainStartHour, tempWeatherData.rainEndHour);
 
+    console.log(todaysWeatherData);
+
 
     var temperature = tempWeatherData.temperature;
     var weatherId = tempWeatherData.currentWeatherId;
     if (!weatherId) {
-        console.log("Couldn't fetch weather ID. Application does not work correctly!");
+        console.log("Couldn't fetch weather ID. Retry in 1 second!");
+        return setTimeout(function () {
+            determineClothesFromWeatherData();
+        }, 1000);
     }
 
     console.log('Weather ID: ' + weatherId);
@@ -321,7 +326,7 @@ function suggestion_template_controller_push(oberteilArray, unterteilArray, schu
     var oberteilSuggestion = Object.keys(oberteilArray).map(function (key) {
         return oberteilArray[key].Name;
     });
-    
+
     var oberteilSuggestionIcon = Object.keys(oberteilArray).map(function (key) {
         return oberteilArray[key].imageSrc;
     });
@@ -329,7 +334,7 @@ function suggestion_template_controller_push(oberteilArray, unterteilArray, schu
     var unterteilSuggestion = Object.keys(unterteilArray).map(function (key) {
         return unterteilArray[key].Name;
     });
-    
+
     var unterteilSuggestionIcon = Object.keys(unterteilArray).map(function (key) {
         return unterteilArray[key].imageSrc;
     });
@@ -337,7 +342,7 @@ function suggestion_template_controller_push(oberteilArray, unterteilArray, schu
     var schuhSuggestion = Object.keys(schuhArray).map(function (key) {
         return schuhArray[key].Name;
     });
-    
+
     var schuhSuggestionIcon = Object.keys(schuhArray).map(function (key) {
         return schuhArray[key].imageSrc;
     });
@@ -345,7 +350,7 @@ function suggestion_template_controller_push(oberteilArray, unterteilArray, schu
     var spezialSuggestion = Object.keys(spezialArray).map(function (key) {
         return spezialArray[key].Name;
     });
-    
+
     var spezialSuggestionIcon = Object.keys(spezialArray).map(function (key) {
         return spezialArray[key].imageSrc;
     });
@@ -354,33 +359,33 @@ function suggestion_template_controller_push(oberteilArray, unterteilArray, schu
     $('.suggestiontext').append('<p> Heute solltest du dir ein ' + oberteilSuggestion + ' und eine ' + unterteilSuggestion + ' anziehen. Als Schuhwerk würde ich dir ' + schuhSuggestion + ' empfehlen. Außerdem solltest du vielleicht an eine ' + spezialSuggestion + ' denken. </p>');
 
     $('#oberteile').before('<p class="h4">Oberteil</p>');
-    
+
     for (var i = 0; i < oberteilSuggestion.length; i++) {
-        $('#oberteile').append('<div class="swiper-slide">' 
-                + '<p class="suggestionItem"> ' + oberteilSuggestion[i] + '</p> ' +
-                '<img class="suggestionIcon" src="' + oberteilSuggestionIcon[i] + '"/>' +       '</div>');
+        $('#oberteile').append('<div class="swiper-slide">' +
+            '<p class="suggestionItem"> ' + oberteilSuggestion[i] + '</p> ' +
+            '<img class="suggestionIcon" src="' + oberteilSuggestionIcon[i] + '"/>' + '</div>');
     }
 
     $('#unterteile').before('<p class="h4">Unterteil</p>');
     for (var i = 0; i < unterteilSuggestion.length; i++) {
-        $('#unterteile').append('<div class="swiper-slide">' 
-                + '<p class="suggestionItem"> ' + unterteilSuggestion[i] + '</p> ' +
-                '<img class="suggestionIcon" src="' + unterteilSuggestionIcon[i] + '"/>' +       '</div>');
+        $('#unterteile').append('<div class="swiper-slide">' +
+            '<p class="suggestionItem"> ' + unterteilSuggestion[i] + '</p> ' +
+            '<img class="suggestionIcon" src="' + unterteilSuggestionIcon[i] + '"/>' + '</div>');
     }
 
     $('#schuhe').before('<p class="h4">Schuhwerk</p>');
-     for (var i = 0; i < schuhSuggestion.length; i++) {
-        $('#schuhe').append('<div class="swiper-slide">' 
-                + '<p class="suggestionItem"> ' + schuhSuggestion[i] + '</p> ' +
-                '<img class="suggestionIcon" src="' + schuhSuggestionIcon[i] + '"/>' +       '</div>');
+    for (var i = 0; i < schuhSuggestion.length; i++) {
+        $('#schuhe').append('<div class="swiper-slide">' +
+            '<p class="suggestionItem"> ' + schuhSuggestion[i] + '</p> ' +
+            '<img class="suggestionIcon" src="' + schuhSuggestionIcon[i] + '"/>' + '</div>');
     }
 
 
     $('#spezial').before('<p class="h4">Was du mitnehmen solltest</p>');
-     for (var i = 0; i < spezialSuggestion.length; i++) {
-        $('#spezial').append('<div class="swiper-slide">' 
-                + '<p class="suggestionItem"> ' + spezialSuggestion[i] + '</p> ' +
-                '<img class="suggestionIcon" src="' + spezialSuggestionIcon[i] + '"/>' +       '</div>');
+    for (var i = 0; i < spezialSuggestion.length; i++) {
+        $('#spezial').append('<div class="swiper-slide">' +
+            '<p class="suggestionItem"> ' + spezialSuggestion[i] + '</p> ' +
+            '<img class="suggestionIcon" src="' + spezialSuggestionIcon[i] + '"/>' + '</div>');
     }
 
 
@@ -392,7 +397,7 @@ function suggestion_template_controller_push(oberteilArray, unterteilArray, schu
         spaceBetween: 30,
         grabCursor: true
     });
-    
+
     var swiperUnterteile = new Swiper('.swiper-unterteile', {
         scrollbar: '.swiper-scrollbar',
         scrollbarHide: true,
@@ -401,7 +406,7 @@ function suggestion_template_controller_push(oberteilArray, unterteilArray, schu
         spaceBetween: 30,
         grabCursor: true
     });
-    
+
     var swiperSchuhe = new Swiper('.swiper-schuhe', {
         scrollbar: '.swiper-scrollbar',
         scrollbarHide: true,
@@ -410,7 +415,7 @@ function suggestion_template_controller_push(oberteilArray, unterteilArray, schu
         spaceBetween: 30,
         grabCursor: true
     });
-    
+
     var swiperSpezial = new Swiper('.swiper-spezial', {
         scrollbar: '.swiper-scrollbar',
         scrollbarHide: true,
