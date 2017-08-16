@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--  Meta  -->
+    <meta charset="UTF-8" />
+    <title>COM.UMBRELLA</title>
+
+    <!--  Styles  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/css/style.css">
+    <script src="anim/player/bodymovin.js"></script>
+</head>
+
+<body>
+    <div class="site-wrap">
+        <div class="head-wrap">
+            <h1 class="sectionheadline">Heute anziehen?</h1>
+        </div>
+        <div class="content-wrap">
+            <h3 class="subheadline">DAS WETTER JETZT</h3>
+            <div class="currentWeather">
+                <div class="weatherIcon"></div>
+                <div class="weatherDescription"></div>
+            </div>
+            <div id="weather-animation"></div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="scripts/jQuery.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/database.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/clothes.js"></script>
+    <script>
+        var anim;
+        var elem = document.getElementById('weather-animation')
+        var animData = {
+            container: elem,
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            rendererSettings: {
+                progressiveLoad: false
+            },
+            path: 'anim/weatherdata/heavyrain.json'
+        };
+        anim = bodymovin.loadAnimation(animData);
+    </script>
+
+</body>
+
+</html>

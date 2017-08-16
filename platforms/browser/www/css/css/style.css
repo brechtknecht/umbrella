@@ -1,0 +1,82 @@
+h1.sectionheadline {
+  font-family: Didot Bold;
+  font-size: 46px;
+  letter-spacing: 0;
+  line-height: 0.7em;
+  text-align: center;
+  color: #515151; }
+
+h3.subheadline {
+  font-family: Futura Light;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  color: #515151;
+  text-align: center; }
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.045em;
+  font-weight: 100;
+  color: #fff !important; }
+
+body {
+  margin: 0px;
+  padding: 0;
+  background: #d79465; }
+
+.list-group .list-group-horizontal {
+  flex-direction: row; }
+
+.list-group-horizontal .list-group-item {
+  display: inline-block; }
+
+.list-group-horizontal .list-group-item {
+  margin-bottom: 0;
+  margin-left: -4px;
+  margin-right: 0; }
+
+.site-wrap .head-wrap {
+  border-bottom: 1px solid #5a5a5a; }
+.site-wrap .content-wrap .currentWeather {
+  max-width: 400px;
+  margin: 0 auto; }
+  .site-wrap .content-wrap .currentWeather > * {
+    text-align: center; }
+
+.clothessuggestion {
+  padding-left: 18px;
+  padding-right: 18px; }
+
+.suggestiontext {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.list-group-horizontal {
+  padding-left: 8px;
+  padding-right: 8px; }
+
+.weatherInformation {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  text-align: center; }
+  .weatherInformation .currentTemperature {
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff; }
+  .weatherInformation .location {
+    font-weight: 300;
+    line-height: 42px;
+    color: #fff; }
+
+.downArrow {
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  right: 0;
+  text-align: center; }
+  .downArrow img {
+    width: 35px; }

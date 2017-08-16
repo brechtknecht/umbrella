@@ -1,0 +1,32 @@
+{
+  "temperatureThresholds" : {
+    "temperatureHot" : [
+      30,
+      43
+    ],
+    "temperatureWarm" : [
+      24,
+      30
+    ],
+    "temperatureMiddle" : [
+      17,
+      24
+    ],
+    "temperatureCold" : [
+      -50,
+      17
+    ]
+  },
+  "weatherConditions" : {
+    "200" : "Gewitter",
+    "300" : "Nieselregen",
+    "500" : "Regen",
+    "600" : "Schnee",
+    "800" : "Klar",
+    "801" : "Bewölkt",
+    "903" : "Sehr Kalt",
+    "904" : "Sehr Heiß",
+    "905" : "Windig",
+    "957" : "Starker Wind"
+  }
+}

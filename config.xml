@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.umbrella" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>UMBRELLA</name>
+    <description>
+        A blank PhoneGap app.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        Felix Tesche
+    </author>
+    <plugin name="cordova-plugin-geolocation" source="npm" />
+    <plugin name="cordova-plugin-whitelist" source="npm" />
+
+    <!-- Don't block any requests -->
+    <access origin="*" />
+    
+    <content src="index.html" />
+    <!-- Wildcards are allowed for the protocol, as a prefix
+     to the host, or as a suffix to the path -->
+    <allow-navigation href="*://*.openweathermap.org/*" />
+
+    <!-- A wildcard can be used to whitelist the entire network,
+     over HTTP and HTTPS.
+     *NOT RECOMMENDED* -->
+    <allow-navigation href="*" />
+
+    <!-- The above is equivalent to these three declarations -->
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="data:*" />
+</widget>
+<!-- https://stackoverflow.com/questions/35350021/phonegap-build-wont-load-jquery -->
+<!-- BEST RESCOURCE TUTORIAL -->
+<!-- https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist/ -->

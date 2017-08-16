@@ -1,0 +1,390 @@
+{
+  "Schuhe" : {
+    "Turnschuhe" : {
+      "Name" : "Turnschuhe",
+      "temperatureCold" : true,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "Sehr kalt" : 903,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      },
+      "imageSrc" : "./images/clothesImages/turnschuh.svg"
+    },
+    "Sandalen" : {
+      "Name" : "Sandalen",
+      "temperatureCold" : false,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : true,
+      "temperatureHot" : true,
+      "weatherConditions" : {
+        "Klar" : 800,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      },
+      "imageSrc" : "./images/clothesImages/sandalen.svg"
+    },
+    "Stiefel" : {
+      "Name" : "Stiefel",
+      "temperatureCold" : true,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Schnee" : 600
+      },
+      "imageSrc" : "./images/clothesImages/stiefel.svg"
+    }
+  },
+  "Unterteile" : {
+    "Hose.Lang" : {
+      "Name" : "Lange Hose",
+      "temperatureCold" : true,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "Sehr kalt" : 903,
+        "windig" : 905,
+        "starker wind" : 957
+      },
+      "imageSrc" : "./images/clothesImages/lange-hose.svg"
+    },
+    "Hose.Kurz" : {
+      "Name" : "Kurze Hose",
+      "temperatureCold" : false,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : true,
+      "temperatureHot" : true,
+      "weatherConditions" : {
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "Sehr kalt" : 903,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      },
+      "imageSrc" : "./images/clothesImages/hose-kurz.svg"
+    },
+    "Rock" : {
+      "Name" : "Kurzer Rock",
+      "temperatureCold" : false,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : true,
+      "temperatureHot" : true,
+      "weatherConditions" : {
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "Sehr kalt" : 903,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      },
+      "imageSrc" : "./images/clothesImages/rock.svg"
+    },
+    "Shorts" : {
+      "Name" : "Shorts",
+      "temperatureCold" : false,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : true,
+      "temperatureHot" : true,
+      "weatherConditions" : {
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "Sehr kalt" : 903,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      },
+      "imageSrc" : "./images/clothesImages/shorts.svg"
+    },
+    "Strumpfhosen" : {
+      "Name" : "Strumpfhosen",
+      "temperatureCold" : true,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "Sehr kalt" : 903,
+        "windig" : 905,
+        "starker wind" : 957
+      },
+      "imageSrc" : "./images/clothesImages/strumpfhose.svg"
+    },
+    "Leggins" : {
+      "Name" : "Leggins",
+      "temperatureCold" : true,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "Sehr kalt" : 903,
+        "windig" : 905,
+        "starker wind" : 957
+      },
+      "imageSrc" : "./images/clothesImages/leggins.svg"
+    }
+  },
+  "Oberteile" : {
+    "Hemd" : {
+      "Name" : "Hemd",
+      "temperatureCold" : false,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "imageSrc" : "./images/clothesImages/hemd.svg",
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Bluse" : {
+      "Name" : "Bluse",
+      "temperatureCold" : false,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "windig" : 905,
+        "starker wind" : 957
+      },
+      "imageSrc" : "./images/clothesImages/bluse.svg"
+    },
+    "Strickjacke" : {
+      "Name" : "Strickjacke",
+      "temperatureCold" : true,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "Sehr kalt" : 903,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Pullover" : {
+      "Name" : "Pullover",
+      "temperatureCold" : true,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "Sehr kalt" : 903,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Sweatshirt" : {
+      "Name" : "Sewatshirt",
+      "temperatureCold" : true,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "Sehr kalt" : 903,
+        "windig" : 905,
+        "starker wind" : 957
+      },
+      "imageSrc" : "./images/clothesImages/sweatshirt.svg"
+    },
+    "Kleid" : {
+      "Name" : "Kleid",
+      "temperatureCold" : false,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : true,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "Sehr kalt" : 903,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      },
+      "imageSrc" : "./images/clothesImages/kleid.svg"
+    },
+    "Top" : {
+      "Name" : "Top",
+      "temperatureCold" : false,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : true,
+      "temperatureHot" : true,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "scattered clouds" : 802,
+        "broken clouds" : 803,
+        "overcast clouds" : 804,
+        "Sehr kalt" : 903,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    }
+  },
+  "Spezialteile" : {
+    "Regenjacke" : {
+      "Name" : "Regenjacke",
+      "weatherConditions" : [
+        200,
+        300,
+        500,
+        801,
+        802,
+        905,
+        957
+      ],
+      "imageSrc" : "./images/clothesImages/regenjacke.svg"
+    },
+    "Kapuzenpulli" : {
+      "Name" : "Kapuzenpulli",
+      "weatherConditions" : [
+        300,
+        500,
+        800,
+        801,
+        802,
+        804,
+        803
+      ],
+      "imageSrc" : "./images/clothesImages/kapuzenpulli.svg"
+    },
+    "Mütze" : {
+      "Name" : "Mütze",
+      "weatherConditions" : [
+        600,
+        905,
+        957
+      ]
+    },
+    "Schal" : {
+      "Name" : "Schal",
+      "weatherConditions" : [
+        600,
+        905,
+        957
+      ]
+    },
+    "Handschuhe" : {
+      "Name" : "Handschuhe",
+      "weatherConditions" : [
+        600
+      ]
+    },
+    "Trenchcoat" : {
+      "Name" : "Trenchcoat",
+      "weatherConditions" : [
+        800,
+        801,
+        802,
+        803,
+        804
+      ],
+      "imageSrc" : "./images/clothesImages/trenchcoat.svg"
+    }
+  }
+}

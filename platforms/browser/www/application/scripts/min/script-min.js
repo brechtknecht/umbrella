@@ -1,0 +1,1 @@
+$(document).ready(function(){getCurrentWeatherWithLocation(action.PUSH_TEMPLATE_OVERVIEW),getForecastWeatherWithLocation(action.PUSH_TEMPLATE_OVERVIEW)});

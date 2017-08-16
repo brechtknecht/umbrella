@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Didot Bold;
+  src: url("../fonts/Didot LT Std/DidotLTStd-Bold.otf") format("opentype"); }
+@font-face {
+  font-family: Futura Medium;
+  src: url("../fonts/Futura Std/FuturaStd-Medium.otf") format("opentype"); }
+@font-face {
+  font-family: Futura Light;
+  src: url("../fonts/Futura Std/FuturaStd-Light.otf") format("opentype"); }
+h1.sectionheadline {
+  font-family: Didot Bold;
+  font-size: 46px;
+  letter-spacing: 0;
+  line-height: 0.7em;
+  text-align: center;
+  color: #515151; }
+
+h3.subheadline {
+  font-family: Futura Medium;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  color: #515151;
+  text-align: center; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.site-wrap .head-wrap {
+  border-bottom: 1px solid #5a5a5a; }

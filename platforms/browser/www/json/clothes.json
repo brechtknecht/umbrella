@@ -1,0 +1,18 @@
+/* Temperatur in k - kalt, m - mittel, w - warm */
+/* Wetterkondition in OpenWeatherMap API Codes*/
+/* Ort in f - Füße, b - Beine, o - Oberkörper, k - Kopf */
+/* Zwiebelschale in Layernummer Hautanliegend oder nicht*/
+
+{
+  "Clothes" : {
+    "T-Shirt" : {
+      "temperatur": ["k", "m", "w"],
+      "wetterkondition": ["800", "300", "400"],
+      "Ort" : "o",
+      "Zwiebelschale" : true
+    },
+    "Hemd" : {
+      
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "0" : {
+    "Background" : {
+      "lowBackground" : "#230F3B",
+      "midBackground" : "#33305B",
+      "highBackground" : "#302442"
+    },
+    "Mountains" : {
+      "lowMountains" : "#32263A",
+      "highMountains" : "#302439"
+    },
+    "MountainDetails" : {
+      "lowMountainDetails" : "#32263A",
+      "highMountainDetails" : "#D4C8C2"
+    },
+    "Decoration" : {
+      "decorationBackground" : "#E97775"
+    }
+  },
+  "6" : {
+    "Background" : {
+      "lowBackground" : "#AB798A",
+      "midBackground" : "#E298AA",
+      "highBackground" : "#AE7A8B"
+    },
+    "Mountains" : {
+      "lowMountains" : "#493F55",
+      "highMountains" : "#52445D"
+    },
+    "MountainDetails" : {
+      "lowMountainDetails" : "#493F55",
+      "highMountainDetails" : "#E8D0D0"
+    },
+    "Decoration" : {
+      "decorationBackground" : "#FFFBF1"
+    }
+  },
+  "12" : {
+    "Background" : {
+      "lowBackground" : "#EBEBC8",
+      "midBackground" : "#A5CDC3",
+      "highBackground" : "#50B4C8"
+    },
+    "Mountains" : {
+      "lowMountains" : "#D29164",
+      "highMountains" : "#FFAF73"
+    },
+    "MountainDetails" : {
+      "lowMountainDetails" : "#FFAF73",
+      "highMountainDetails" : "#EBEBC8"
+    },
+    "Decoration" : {
+      "decorationBackground" : "#FFF0D2"
+    }
+  },
+  "18" : {
+    "Background" : {
+      "lowBackground" : "#AB798A",
+      "midBackground" : "#E298AA",
+      "highBackground" : "#AE7A8B"
+    },
+    "Mountains" : {
+      "lowMountains" : "#493F55",
+      "highMountains" : "#52445D"
+    },
+    "MountainDetails" : {
+      "lowMountainDetails" : "#493F55",
+      "highMountainDetails" : "#E8D0D0"
+    },
+    "Decoration" : {
+      "decorationBackground" : "#FFFBF1"
+    }
+  },
+  "24" : {
+    "Background" : {
+      "lowBackground" : "230F3B",
+      "midBackground" : "#33305B",
+      "highBackground" : "#302442"
+    },
+    "Mountains" : {
+      "lowMountains" : "#32263A",
+      "highMountains" : "#302439"
+    },
+    "MountainDetails" : {
+      "lowMountainDetails" : "#32263A",
+      "highMountainDetails" : "#D4C8C2"
+    },
+    "Decoration" : {
+      "decorationBackground" : "#E97775"
+    }
+  }
+}

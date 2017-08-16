@@ -1,0 +1,69 @@
+<cold>
+    <cloth>
+        <category></category>
+        <image></image>
+        <forRainy></forRainy>
+        <forSnowy></forSnowy>
+        <forWindy></forWindy>
+    </cloth>
+    <cloth>
+        <category></category>
+        <image></image>
+        <forRainy></forRainy>
+        <forSnowy></forSnowy>
+        <forWindy></forWindy>
+    </cloth>
+    <cloth>
+        <category></category>
+        <image></image>
+        <forRainy></forRainy>
+        <forSnowy></forSnowy>
+        <forWindy></forWindy>
+    </cloth>
+</cold>
+<middle>
+    <cloth>
+        <category></category>
+        <image></image>
+        <forRainy></forRainy>
+        <forSnowy></forSnowy>
+        <forWindy></forWindy>
+    </cloth>
+    <cloth>
+        <category></category>
+        <image></image>
+        <forRainy></forRainy>
+        <forSnowy></forSnowy>
+        <forWindy></forWindy>
+    </cloth><cloth></cloth>
+    <cloth>
+        <category></category>
+        <image></image>
+        <forRainy></forRainy>
+        <forSnowy></forSnowy>
+        <forWindy></forWindy>
+    </cloth>
+</middle>
+<warm>
+    <cloth>
+        <category></category>
+        <image></image>
+        <forRainy></forRainy>
+        <forSnowy></forSnowy>
+        <forWindy></forWindy>
+    </cloth>
+    <cloth>
+        <category></category>
+        <image></image>
+        <forRainy></forRainy>
+        <forSnowy></forSnowy>
+        <forWindy></forWindy>
+    </cloth>
+    <cloth>
+        <category></category>
+        <image></image>
+        <forRainy></forRainy>
+        <forSnowy></forSnowy>
+        <forWindy></forWindy>
+    </cloth>
+</warm>

@@ -1,0 +1,326 @@
+{
+  "Schuhe" : {
+    "Turnschuhe" : {
+      "Name" : "Turnschuhe",
+      "temperatureCold" : true,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "Sehr kalt" : 903,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Sandalen" : {
+      "Name" : "Sandalen",
+      "temperatureCold" : false,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : true,
+      "temperatureHot" : true,
+      "weatherConditions" : {
+        "Klar" : 800,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Stiefel" : {
+      "Name" : "Stiefel",
+      "temperatureCold" : true,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Schnee" : 600
+      }
+    }
+  },
+  "Unterteile" : {
+    "Hose.Lang" : {
+      "Name" : "Lange Hose",
+      "temperatureCold" : true,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "Sehr kalt" : 903,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Hose.Kurz" : {
+      "Name" : "Kurze Hose",
+      "temperatureCold" : false,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : true,
+      "temperatureHot" : true,
+      "weatherConditions" : {
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "Sehr kalt" : 903,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Rock" : {
+      "Name" : "Kurzer Rock",
+      "temperatureCold" : false,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : true,
+      "temperatureHot" : true,
+      "weatherConditions" : {
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "Sehr kalt" : 903,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Shorts" : {
+      "Name" : "Shorts",
+      "temperatureCold" : false,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : true,
+      "temperatureHot" : true,
+      "weatherConditions" : {
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "Sehr kalt" : 903,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Strumpfhosen" : {
+      "Name" : "Strumpfhosen",
+      "temperatureCold" : true,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "Sehr kalt" : 903,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Leggins" : {
+      "Name" : "Leggins",
+      "temperatureCold" : true,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "Sehr kalt" : 903,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    }
+  },
+  "Oberteile" : {
+    "Hemd" : {
+      "Name" : "Hemd",
+      "temperatureCold" : false,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Bluse" : {
+      "Name" : "Bluse",
+      "temperatureCold" : false,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Strickjacke" : {
+      "Name" : "Strickjacke",
+      "temperatureCold" : true,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "Sehr kalt" : 903,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Pullover" : {
+      "Name" : "Pullover",
+      "temperatureCold" : true,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "Sehr kalt" : 903,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Sweatshirt" : {
+      "Name" : "Sewatshirt",
+      "temperatureCold" : true,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : false,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "Sehr kalt" : 903,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Kleid" : {
+      "Name" : "Kleid",
+      "temperatureCold" : false,
+      "temperatureMiddle" : true,
+      "temperatureWarm" : true,
+      "temperatureHot" : false,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "Sehr kalt" : 903,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    },
+    "Top" : {
+      "Name" : "Top",
+      "temperatureCold" : false,
+      "temperatureMiddle" : false,
+      "temperatureWarm" : true,
+      "temperatureHot" : true,
+      "weatherConditions" : {
+        "Gewitter" : 200,
+        "Nieselregen" : 300,
+        "Regen" : 500,
+        "Schnee" : 600,
+        "Klar" : 800,
+        "Bewölkt" : 801,
+        "Sehr kalt" : 903,
+        "Sehr heiss" : 904,
+        "windig" : 905,
+        "starker wind" : 957
+      }
+    }
+  },
+  "Spezialteile" : {
+    "Regenjacke" : {
+      "Name" : "Regenjacke",
+      "weatherConditions" : [
+        200,
+        300,
+        500,
+        801,
+        905,
+        957
+      ]
+    },
+    "Kapuzenpulli" : {
+      "Name" : "Kapuzenpulli",
+      "weatherConditions" : [
+        300,
+        500,
+        800,
+        801
+      ]
+    },
+    "Mütze" : {
+      "Name" : "Mütze",
+      "weatherConditions" : [
+        600,
+        905,
+        957
+      ]
+    },
+    "Schal" : {
+      "Name" : "Schal",
+      "weatherConditions" : [
+        600,
+        905,
+        957
+      ]
+    },
+    "Handschuhe" : {
+      "Name" : "Handschuhe",
+      "weatherConditions" : [
+        600
+      ]
+    },
+    "Trenchcoat" : {
+      "Name" : "Trenchcoat",
+      "weatherConditions" : [
+        800,
+        801
+      ]
+    }
+  }
+}

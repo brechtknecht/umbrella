@@ -1,0 +1,186 @@
+h1.sectionheadline {
+  font-family: Didot Bold;
+  font-size: 46px;
+  letter-spacing: 0;
+  line-height: 0.7em;
+  text-align: center;
+  color: #515151; }
+
+h3.subheadline {
+  font-family: Futura Light;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  color: #515151;
+  text-align: center; }
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.045em;
+  font-weight: 100;
+  color: #fff !important; }
+
+body {
+  margin: 0px;
+  padding: 0;
+  background: #d79465; }
+
+.list-group .list-group-horizontal {
+  flex-direction: row; }
+
+.list-group-horizontal .list-group-item {
+  display: inline-block; }
+
+.list-group-horizontal .list-group-item {
+  margin-bottom: 0;
+  margin-left: -4px;
+  margin-right: 0; }
+
+.disable-scroll {
+  height: 100vh;
+  overflow: hidden; }
+
+.site-wrap .head-wrap {
+  border-bottom: 1px solid #5a5a5a; }
+.site-wrap .content-wrap .currentWeather {
+  max-width: 400px;
+  margin: 0 auto; }
+  .site-wrap .content-wrap .currentWeather > * {
+    text-align: center; }
+
+.clothessuggestion {
+  padding-left: 18px;
+  padding-right: 18px; }
+
+.suggestiontext {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.suggestionItem {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -7px; }
+
+.suggestionIcon {
+  max-width: 100%;
+  max-height: 100%; }
+
+.list-group-horizontal {
+  padding-left: 8px;
+  padding-right: 8px; }
+
+.weatherInformation {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  text-align: center; }
+  .weatherInformation .currentTemperature {
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff; }
+  .weatherInformation .location {
+    font-weight: 300;
+    line-height: 42px;
+    color: #fff; }
+
+.downArrow {
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  right: 0;
+  text-align: center; }
+  .downArrow .wasanziehen {
+    width: 180px;
+    margin-bottom: 18px;
+    opacity: 0;
+    animation: fadeInUp normal forwards;
+    animation-duration: 900ms;
+    animation-delay: 900ms; }
+  .downArrow .arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 35px;
+    opacity: 0; }
+  .downArrow img {
+    display: block;
+    margin: 0 auto; }
+
+.suggestion {
+  margin-top: -1px;
+  padding-top: 1.7em;
+  padding-bottom: 1.5em; }
+
+.swiper-wrapper div {
+  height: 150px !important;
+  width: 50% !important;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  margin-right: 18px;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 18px;
+  padding-bottom: 54px; }
+
+.loader {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: grey;
+  opacity: 0;
+  margin: 0 auto;
+  animation: fadeInUp normal forwards;
+  animation-duration: 900ms;
+  animation-delay: 1200ms; }
+  .loader:before, .loader:after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; }
+
+.loader:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  animation: ballin 1200ms ease-in-out infinite; }
+@keyframes ballin {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(1); } }
+/* Animations */
+.fadeInUp {
+  animation: fadeInUp normal forwards;
+  animation-duration: 900ms; }
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0.2;
+    transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+.fadeOut {
+  animation: fadeOut normal forwards;
+  animation-duration: 900ms; }
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+.fadeIn {
+  animation: fadeIn normal forwards;
+  animation-duration: 900ms; }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
